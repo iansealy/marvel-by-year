@@ -99,7 +99,6 @@ function getComicsSearchParams(year: number, offset: number, limit: number) {
 		formatType: 'comic',
 		noVariants: 'true',
 		dateRange: `${year}-01-01,${year}-12-31`,
-		hasDigitalIssue: 'true',
 		limit: limit.toString(),
 		offset: offset.toString(),
 		// when ordering by other fields (e.g. date), the API response is missing some comics. So don't change this without testing!
